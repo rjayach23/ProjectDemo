@@ -1,0 +1,18 @@
+{
+    "default": {
+        "dryRun": true,
+        "formatOptions": {
+            "snippetInterface": "aysnc-await"
+        },
+        "paths": [
+            "tests/Features/**/*.Feature"
+        ],
+        "require": [
+            "tests/Steps/**/*.ts"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "format": []
+    }
+}
